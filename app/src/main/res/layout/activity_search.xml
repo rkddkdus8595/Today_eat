@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFBB00"
+    tools:context=".SearchActivity">
+
+    <EditText
+        android:id="@+id/txtName1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/border"
+        android:fontFamily="@font/hana"
+        android:hint="이름" />
+
+    <EditText
+        android:id="@+id/txtAge1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="107dp"
+        android:background="@drawable/border"
+        android:fontFamily="@font/hana"
+        android:hint="나이" />
+
+    <EditText
+        android:id="@+id/txtid"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="176dp"
+        android:background="@drawable/border"
+        android:fontFamily="@font/hana"
+        android:hint="아이디" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="253dp"
+        android:background="#4C4C4C"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/hana"
+        android:text="비밀번호 찾기" />
+
+    <EditText
+        android:id="@+id/txtName2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="344dp"
+        android:background="@drawable/border"
+        android:fontFamily="@font/hana"
+        android:hint="이름" />
+
+    <EditText
+        android:id="@+id/txtAge2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="412dp"
+        android:background="@drawable/border"
+        android:fontFamily="@font/hana"
+        android:hint="나이" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="494dp"
+        android:background="#4C4C4C"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/hana"
+        android:text="아이디 찾기" />
+</RelativeLayout>
+
+
+

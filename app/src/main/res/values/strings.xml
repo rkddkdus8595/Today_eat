@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Today_eat</string>
+    <string name="title_activity_korean_menu">한식</string>
+    <string name="title_activity_western_menu">양식</string>
+    <string name="title_activity_japanese_menu">일식</string>
+    <string name="title_activity_chinese_menu">중식</string>
+    <string name="title_activity_korean_maps">Map</string>
+    <string name="title_activity_chinese_map">Map</string>
+    <string name="title_activity_western_map">Map</string>
+    <string name="title_activity_japanese_map">Map</string>
+</resources>

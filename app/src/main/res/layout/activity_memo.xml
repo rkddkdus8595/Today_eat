@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Memo">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="56dp"
+        android:layout_height="107dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="7dp"
+        app:srcCompat="@drawable/notepad" />
+
+    <ListView
+        android:id="@+id/listView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/hana" />
+
+
+    <ImageButton
+        android:id="@+id/btnDelete1"
+        android:layout_width="64dp"
+        android:layout_height="76dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="9dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/hana"
+        android:onClick="btnDeleteClick"
+        android:scaleType="fitCenter"
+        android:src="@drawable/delete" />
+
+    <ImageButton
+        android:id="@+id/btnGo1"
+        android:layout_width="50dp"
+        android:layout_height="73dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="305dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="167dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/hana"
+        android:onClick="btnGoClick"
+        android:scaleType="fitCenter"
+        android:src="@drawable/edit" />
+
+    <ImageButton
+        android:id="@+id/btnUpdate1"
+        android:layout_width="48dp"
+        android:layout_height="68dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="96dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/hana"
+        android:onClick="btnUpdateClick"
+        android:scaleType="fitCenter"
+        android:src="@drawable/refresh" />
+
+
+</RelativeLayout>

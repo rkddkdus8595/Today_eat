@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFBB00"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="211dp"
+        android:layout_height="273dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/menu" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Date"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:text="메뉴버튼을 눌러주세요"
+        android:fontFamily="@font/hana"
+        android:textColor="#FFFFFF"
+        android:textSize="9pt" />
+
+    <TextView
+        android:id="@+id/Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="19dp"
+        android:text="date"
+        android:fontFamily="@font/hana"
+        android:textColor="#000000"
+        android:textSize="10pt" />
+
+    <Button
+        android:id="@+id/btnRandom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_alignStart="@+id/imageView1"
+        android:layout_marginTop="27dp"
+        android:background="#FFFFFF"
+        android:onClick="btnRandom"
+        android:fontFamily="@font/hana"
+        android:text="  Random Food  " />
+
+
+    <TextView
+        android:id="@+id/txtRandom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnRandom"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/hana"
+        android:text="무엇이 나올까 ?"
+        android:textColor="#FFFFFF"
+        android:textSize="8pt" />
+
+
+</RelativeLayout>
